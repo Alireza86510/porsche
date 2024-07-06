@@ -1,0 +1,80 @@
+/* Start Header */
+.header{
+    padding: 100px 0;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url(../Image/main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.headerBox{
+    width: 85%;
+    margin: 0 auto;
+}
+.headertitle1{
+    color:#ffb91a;
+    font-size: 40px;
+}
+.headertitle2{
+    color: white;
+    font-size: 110px;
+    margin: 30px 0;
+    margin-bottom: 80px;
+    line-height: 100px;
+}
+.baselink{
+    background-color:#a5141a;
+    padding: 18px 50px;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+    font-weight: bold;
+    font-size: 20px;
+}
+.baselink:hover{
+    background-color: #ffb91a;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    font-family: "Bebas Neue", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.baggg{
+    background-color:#a5141a;
+}
+.margin{
+margin-right: 100px;
+}
+.margin2{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.margin3{
+    margin-left: 200px;
+}
+.border1{
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.text1{
+    font-size: 40px;
+    padding: 20px;
+    
+}
+.text{
+    color: white;
+}
+/* End Header */
