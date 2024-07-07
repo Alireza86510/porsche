@@ -1,0 +1,99 @@
+/* Start Delivery */
+.deliver , .popular{
+    padding: 140px 0;
+    background-image: url(../Image/delivery.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.deliver_box , .popular_box{
+    width: 85%;
+    margin: auto;
+}
+.deliver_info , .popular_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.deliver_info p , .popular_info p{
+    color:#a5141a;
+    font-size: 25px;
+}
+.deliver_info h3 , .popular_info h3{
+    color: white;
+    font-size: 100px;
+    width: 60%;
+    line-height: 100px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+/* End Delivery */
+
+/* Start Stats */
+.stats{
+    padding: 45px;
+    background-color: #ffb91a;
+}
+.stats_box{
+    width: 85%;
+    margin:0 auto;
+}
+.stats_items{
+    display: flex;
+    justify-content: space-between;
+}
+.item1{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.item_info{
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.item_name{
+    color: white;
+    font-size: 20px;
+}
+/* End Stats */
+
+/* Fonts */
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Fonts */
+body{
+    font-family: "Bebas Neue", sans-serif;
+}
+/* Based Link */
+.baselink{
+    background-color:#a5141a;
+    padding: 18px 50px;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+    font-weight: bold;
+    font-size: 20px;
+}
+.baselink:hover{
+    background-color: #ffb91a;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
