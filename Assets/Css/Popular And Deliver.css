@@ -65,3 +65,69 @@ body{
 .baselink:hover{
     background-color: #ffb91a;
 }
+
+/* Start travel */
+.travel_right img{
+    width: 75%;
+}
+.travel_left_title{
+    font-size: 55px;
+    width: 90%;
+    padding: 20px 0;
+}
+.travel_left_info{
+    width: 70%;
+    margin-top: 20px;
+    line-height: 25px;
+    
+}
+.travel_right{
+    width: 50%;
+}
+.travel_left{
+    width: 50%;
+}
+/* End travel */
+/* Start Concernning */
+.concernning , .travel{
+    padding: 80px 0;
+}
+.concernning_box , .travel_box{
+    width: 85% ;
+    margin: 0 auto ;
+}
+.concernning_items , .travel_items{
+    display: flex;
+}
+.concernning_left , .travel_right{
+    width: 65%;
+}
+.concernning_left img , .travel_right img{
+    width: 60%;
+    margin-left: 90px;
+}
+.concernning_right , .travel_left{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.concernning_right span , .travel_left span{
+    color: #a5141a;
+    font-size: 25px;
+    display: block;
+}
+.concernning_right_title , .travel_left_title{
+    font-size: 45px;
+    width: 80%;
+    padding: 20px 0;
+}
+.concernning_right_info , .travel_left_info{
+    color: grey;
+    font-size: 15px;
+    width: 80%;
+    margin-bottom: 50px;
+    word-spacing: 3px;
+}
+/* End Concernning */
