@@ -1,0 +1,124 @@
+
+/* start header */
+header{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.5)) , url('../imgs/main\ \(1\).jpg');
+    background-position: center;
+    background-size: cover;
+}
+.header_box{
+    width: 85%;
+    margin: auto;
+    padding: 80px 40px;
+}
+.header_box h2{
+    color: #ffb91a;
+    font-size: 40px;
+    font-weight: 400px;
+}
+.header_box h3{
+    color: white;
+    padding: 50px 0;
+    line-height: 110px;
+    font-size: 70px;
+    font-weight: 400px;
+}
+.mylink{
+    text-decoration: none;
+    color: white;
+    background-color: #a5141a;
+    padding: 13px 30px;
+    line-height: 28px;
+    border-radius: 5px;
+    font-weight: 400px;
+    font-size: 19px;
+    transition-duration: 0.3s;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0px;
+}
+.mylink:hover{
+    background-color: #ffb91a;
+}
+/* end header */
+
+/* start cate */
+.cate{
+    padding: 100px 0;
+}
+.cate_box{
+    width: 85%;
+    margin: auto;
+}
+.cate_items{
+    display: flex;
+    justify-content: space-between
+}
+.cate_item h4{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.cate_item{
+    width: 23%;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+.cate_item:hover{
+    border-color: #ffb91a;
+}
+/* end cate */
+
+/* start concerning */
+
+.concerning{
+    padding: 100px 0;
+}
+.concerning_box{
+    width: 85%;
+    margin: 0 auto;
+}
+.concerning_items{
+    display: flex;
+}
+.concerning_item_left{
+    width: 67%;
+}
+.concerning_item_right{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.concerning_item_right h3{
+    color: #a5141a;
+    font-size: 27px;
+    padding: 10px 0;
+}
+
+.concerning_item_right h4{
+    color: #0e0e0e;
+    font-size: 45px;
+    line-height: 50px;
+    padding: 25px 0;
+    width: 80%;
+}
+
+.concerning_item_right p{
+    color: #6b6b6b;
+    padding-bottom: 40px;
+    width: 80%;
+    line-height: 24px;
+    font-size: 15px;
+}
+
+.concerning_item_left img{
+    width: 74.5%;
+}
+/* end concerning */
+
