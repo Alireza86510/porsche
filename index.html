@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/Css/style.css">
+
+    <title>Burger</title>
+</head>
+
+<body>
+    <!-- start nav  -->
+    <nav class=" bg-black">
+        <div class=" container baggg p-3 border1">
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-facebook text-white" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                        </svg>
+                    </a></li>
+
+                <li class="nav-item"><a class="nav-link" href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-twitter text-white" viewBox="0 0 16 16">
+                            <path
+                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+                        </svg>
+                    </a></li>
+
+                <li class="nav-item"><a class="nav-link" href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-instagram text-white  margin" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg>
+                    </a></li>
+
+                <li class="nav-item "><a class="nav-link text-warning" href=""><b>HOME</b></a></li>
+                <li class="nav-item "><a class="nav-link text-white" href=""><b>Log In</b></a></li>
+                <li class="nav-item "><a class="nav-link text-white" href=""><b>Register</b></a></li>
+
+
+                <a class="text-warning nav-link margin2 " href=""><b><big>BURGERA</big></b></a>
+
+                <li class="nav-item"><a class="nav-link text-white" href=""><b>SHOP</b></a></li>
+                <li class="nav-item"><a class="nav-link text-white" href=""><b>About</b></a></li>
+                <li class="nav-item"><a class="nav-link text-white" href=""><b>CONTACT</b></a></li>
+
+
+                <li class="nav-item "><a class="nav-link" href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-cart text-white margin3" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                        </svg>
+                    </a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end nav  -->
+    <!-- Start Header Sreciton -->
+    <header class="header bebas-neue-regular">
+        <header class="headerBox">
+            <p class="headertitle1 pacifico-regular">Are You Hungry?</p>
+            <p class="headertitle2">
+                GAME NIGHT? <br>
+                WORKING LATE?<br>
+                ORDER NOW!<br>
+            </p>
+            <a href="" class="baselink">Go To Menu</a>
+        </header>
+    </header>
+    <!-- End Header Section -->
+    <!-- Start Category Section -->
+    <section class="category">
+        <div class="categorybox">
+            <div class="category-items">
+                <div class="category-item">
+                    <img src="Assets/Image/category-01.png" alt="">
+                    <h3>BURGER</h3>
+                </div>
+                <div class="category-item">
+                    <img src="Assets/Image/category-02.png" alt="">
+                    <h3>Sub Sandwiches</h3>
+                </div>
+                <div class="category-item">
+                    <img src="Assets/Image/category-03.png" alt="">
+                    <h3>Beef Roll</h3>
+                </div>
+                <div class="category-item">
+                    <img src="Assets/Image/category-04.png" alt="">
+                    <h3>Wedges</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Finish Categorzy Section -->
+    <!-- Start Sug -->
+    <section class="sug">
+        <div class="sug_box">
+            <div class="sug_items">
+                <div class="sug_Left">
+                    <div class="sug_item">
+                        <p class="sug_item_title">
+                            MEET, EAT &
+                            ENJOY THE
+                            TRUE TASTE
+                        </p>
+                        <p class="sug_item_para">LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD
+                            TEMPOR.</p>
+                        <span>$9.45</span>
+                        <a href="" class="baselink">ORDER NOW</a>
+                    </div>
+                </div>
+                <div class="sug_Right">
+                    <div class="sug_item sug_item_mini">
+                        <p class="sug_item_title">
+                            DISCOVERY
+                            NEW MENU
+                        </p>
+                        <p class="sug_item_para">LOREM IPSUM DOLOR ADIPISCING ELIT</p>
+                        <span>$9.45</span>
+                    </div>
+                    <div class="sug_item sug_item_mini sug_item_mini_2">
+                        <p class="sug_item_title sug_item_title_mini">
+                            BUY ONE
+                            GET ONE
+                        </p>
+                        <p class="sug_item_para">LOREM IPSUM DOLOR ADIPISCING ELIT</p>
+                        <span>$9.45</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Sug -->
+    <!-- Start Concerning Section -->
+    <section class="concerning">
+        <div class="concerning_box">
+            <div class="concerning_items">
+
+                <div class="concerning_item_left">
+                    <img src="Assets/Image/about-bg.png" alt="">
+                </div>
+
+                <div class="concerning_item_right">
+                    <h3 class="font_pac">
+                        Concerning Our Food
+                    </h3>
+                    <h4 class="font_bn">
+                        With American Love,
+                        from Los Angeles
+                    </h4>
+                    <p class=" font_epi">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                        mattis, pulvinar dapibus.
+                    </p>
+                    <a type="" class="baselink " href="">ORDER NOW</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Concerning Section -->
+    <!-- Start Delivery -->
+    <section class="deliver">
+        <div class="deliver_box">
+            <div class="deliver_info">
+                <p class="pacifico-regular">We Deliver Your Masterpiece!</p>
+                <h3>
+                    Quick & Nutritious Dinner
+                </h3>
+                <a href="" class="baselink">FULL MENU</a>
+            </div>
+        </div>
+    </section>
+    <!-- End Delivery -->
+
+    <!-- Start Stats -->
+    <section class="stats">
+        <div class="stats_box">
+            <div class="stats_items">
+                <div class="item1">
+                    <span class="item_info">230</span>
+                    <span class="item_name">Ingredients</span>
+                </div>
+                <div class="item1">
+                    <span class="item_info">500+</span>
+                    <span class="item_name">Client Daily</span>
+                </div>
+                <div class="item1">
+                    <span class="item_info">12+</span>
+                    <span class="item_name">Years of Experience</span>
+                </div>
+                <div class="item1">
+                    <span class="item_info">100%</span>
+                    <span class="item_name">Fresh & Tasty</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Stats -->
+
+    <!-- start our main dishes section -->
+    <section>
+        <div class="ourmaindishes row">
+            <div class="textsurena col-6 d-flex">
+                <div class="main-dish-left">
+                    <div class="divh2s">
+                        <h2 class="h2surena">OUR MAIN DISHES</h2>
+                    </div>
+                    <div>
+                        <div class="users">
+                            <h3 class="h3surena">
+                                BREAKFAST MOOD ... . . $29.00
+                            </h3>
+                            <P class="psurena">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </P>
+                        </div>
+                        <div class="users">
+                            <h3 class="h3surena">
+                                DRINKING PROSPECT ... . . $$9.45
+                            </h3>
+                            <P class="psurena">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </P>
+                        </div>
+                        <div class="users">
+                            <h3 class="h3surena">
+                                Burger Time ... . . $12.45
+                            </h3>
+                            <P class="psurena">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </P>
+                        </div>
+                        <div class="users">
+                            <h3 class="h3surena">
+                                Grilled Chicken ... . . $19.45
+                            </h3>
+                            <P class="psurena">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="picsurena col-6">
+                <img class="imgsurena" src="Assets/Image/dish-bg.png" alt="burger and cocke">
+            </div>
+        </div>
+    </section>
+    <!-- End Our Main Dishes Section -->
+    <!-- Start Popular -->
+    <section class="popular">
+        <div class="popular_box">
+            <div class="popular_info">
+                <p class="pacifico-regular">Popular Dishes</p>
+                <h3>
+                    Place an order for your preferred food.
+                </h3>
+                <a href="" class="baselink">ORDER NOW</a>
+            </div>
+        </div>
+    </section>
+    <!-- End Popular -->
+    <section>
+        <div class="bug-review-section bug-section">
+           <div class="container">
+              <div class="bug-food-section-header">
+                 <h3>Testimonials</h3>
+                 <h2>Customers Feedback</h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+              <div class="row">
+                 <div class="col-lg-6">
+                    <div class="bug-food-review">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                          Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                       </p>
+                       <div class="bug-client-img">
+                          <img src="Assets/Image/client-01.jpg" class="img-fluid" alt="">
+                          <span>KELLY BROOK</span>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="col-lg-6">
+                    <div class="bug-food-review">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                          Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                       </p>
+                       <div class="bug-client-img">
+                          <img src="Assets/Image/client-02.jpg" class="img-fluid" alt="">
+                          <span>THOMAS MULLER</span>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="col-lg-6">
+                    <div class="bug-food-review">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                          Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                       </p>
+                       <div class="bug-client-img">
+                          <img src="Assets/Image/client-03.jpg" class="img-fluid" alt="">
+                          <span>BREAT LEU</span>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="col-lg-6">
+                    <div class="bug-food-review">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                          Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                       </p>
+                       <div class="bug-client-img">
+                          <img src="Assets/Image/client-04.jpg" class="img-fluid" alt="">
+                          <span>Nancy Lopez</span>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </section>
+    <!-- Start Travel -->
+    <section class="travel">
+        <div class="travel_box">
+            <div class="travel_items">
+                <div class="travel_left">
+                    <span class="pacifico-regular"> Free Delivery </span>
+                    <p class="travel_left_title">
+                        To get free delivery,<br>
+                        download our app and
+                        <br>order online.
+                    </p>
+                    <p class="travel_left_info">
+                        With a 10-year track record, we are the country's number one fast food store. We provide some of
+                        the greatest burgers and pizza in the country.
+                    </p>
+                </div>
+                <div class="travel_right">
+                    <img src="Assets/Image/app-bg.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Travel -->
+
+    <section>
+        <div class="bug-cta-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="bug-cta-title">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="bug-cta-btn">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Start Footer Section -->
+    <footer class="footer-99382" style="background-image: url('images/hero_1.jpg');">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 pr-md-5">
+                    <a href="#" class="footer-site-logo d-block mb-4">Contact</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quasi perferendis ratione
+                        perspiciatis accusantium.</p>
+                </div>
+                <div class="col-md">
+                    <h3>Discover</h3>
+                    <ul class="list-unstyled nav-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <h3>WORKING</h3>
+                    <ul class="list-unstyled nav-links">
+                        <li><a href="#">Monday 9:00 - 24:00</a></li>
+                        <li><a href="#">Tuesday 9:00 - 24:00</a></li>
+                        <li><a href="#">Wednesday 9:00 - 24:00</a></li>
+                        <li><a href="#">Thursday 9:00 - 24:00</a></li>
+                        <li><a href="#">Friday 9:00 - 02:00</a></li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <h3>Help</h3>
+                    <ul class="list-unstyled nav-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms &amp; Conditions</a></li>
+                        <li><a href="#">Partners</a></li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <h3>Follow Us</h3>
+                    <ul class="social list-unstyled">
+                        <li><a href="#" class="pl-0"><span class="icon-instagram"></span></a></li>
+                        <li><a href="#"><span class="icon-twitter"></span></a></li>
+                        <li><a href="#"><span class="icon-facebook"></span></a></li>
+                        <li><a href="#"><span class="icon-pinterest"></span></a></li>
+                        <li><a href="#"><span class="icon-dribbble"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row ">
+                <div class="col-12 text-center">
+                    <div class="copyright mt-5 pt-5">
+                        <p><small>&copy; 2024&mdash;2024 All Rights Reserved. Made By Masoodi-Zojaji-Khosravi</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer Section   -->
+</body>
+
+</html>
