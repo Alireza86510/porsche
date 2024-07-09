@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.textsurena{
+    background-color: #a5141a;
+    border-radius: 15px;
+    margin-left: 150px;
+    padding: 80px 50px;
+    width: 600px;
+    height: 600px;
+}
+.h3surena{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.psurena{
+    color: white;
+}
+.h2surena{
+    color: white;
+    font-weight: 800;
+    font-size: 18;
+}
+.ourmaindishes{
+    padding-top: 120px;
+    margin: 0;
+}
+.picsurena{
+    width: 100PX;
+    margin-right: 660px;
+    padding-top: 70px;
+}
+.picsurena{
+height: 30px;
+}
+.divh2s{
+    margin-bottom: 40px;
+}
+.users{
+    margin-bottom: 35px;
+}
